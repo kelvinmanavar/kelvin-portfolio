@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image'; // Import the Next.js Image component
 import { Mail, MapPin, Phone, GitBranch, ExternalLink, Terminal, Cloud, Server, Database } from 'lucide-react';
-
+import profilePic from '../public/profile.jpg';
 export default function Home() {
   return (
     <main className="max-w-5xl mx-auto px-6 py-12 md:py-20 space-y-24">
@@ -38,7 +38,7 @@ export default function Home() {
           {/* Nested Image Wrapper with responsive sizing and alignment logic */}
           <div className="relative w-48 sm:w-64 md:w-72 lg:w-80 aspect-square flex-shrink-0"> {/* Responsive rendered sizes */}
             <Image
-              src="/profile.jpg" // *** USER ACTION REQUIRED: Replace with your actual file name + extension stored in the public folder ***
+              src={profilePic} // *** USER ACTION REQUIRED: Replace with your actual file name + extension stored in the public folder ***
               alt="Kelvin Manavar Profile Picture" // Good practice for accessibility
               fill // Implicitly handles relative parent's width/height, optimized by Next.js
               className="rounded-full shadow-[0_0_15px_rgba(99,102,241,0.6)] border-4 border-slate-900 object-cover" // Style adjustments: perfectly rounded, prominent glowing shadow, matching border, and cover image fitting
