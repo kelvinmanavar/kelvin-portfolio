@@ -60,7 +60,7 @@ export default function Home() {
             <div className="absolute w-4 h-4 bg-indigo-500 rounded-full -left-[41px] top-1.5 shadow-[0_0_10px_rgba(99,102,241,0.5)]"></div>
             <h4 className="text-xl font-bold text-white">DevOps Engineer, EloxTech Pvt. Ltd. </h4>
             <p className="text-indigo-400 font-medium mb-4">Ahmedabad, India | 11/2022 - present </p>
-            <ul className="space-y-2 text-slate-300 list-disc list-outside ml-5 marker:text-indigo-500">
+            <ul className="space-y-2 text-slate-300 list-disc list-outside ml-5 marker:text-indigo-500 text-justify">
               <li>Managed version control systems (Git, GitHub, GitLab, Bitbucket), overseeing daily Git operations to support efficient project development and version control. </li>
               <li>Designed, implemented, and maintained CI/CD pipelines using AWS CodePipeline, Bitbucket, and GitLab to automate and streamline deployment workflows. </li>
               <li>Administered and optimized web servers (NGINX, Apache) to ensure reliable hosting and high performance of web applications.</li>
@@ -81,7 +81,7 @@ export default function Home() {
             <div className="absolute w-4 h-4 bg-slate-700 rounded-full -left-[41px] top-1.5 border-2 border-slate-950"></div>
             <h4 className="text-xl font-bold text-white">DevOps Engineer, Freelancer at Elox Tech Pvt. Ltd </h4>
             <p className="text-indigo-400 font-medium mb-4">Ahmedabad, India | 01/2022-10/2022 </p>
-            <ul className="space-y-2 text-slate-300 list-disc list-outside ml-5 marker:text-indigo-500">
+            <ul className="space-y-2 text-slate-300 list-disc list-outside ml-5 marker:text-indigo-500 text-justify">
               <li>Designed, implemented, and managed cloud-based infrastructure for staging and production environments using AWS, ensuring high availability, and cost optimization.</li>
               <li>Enhanced client satisfaction by delivering high-quality work within deadlines.</li>
               <li>Configured automated snapshots using AWS EC2 Lifecycle Manager and S3 Lifecycle Policies, ensuring data integrity and compliance.</li>
@@ -154,7 +154,7 @@ export default function Home() {
                 <a href="#" className="hover:text-indigo-500 transition-colors"><ExternalLink className="w-5 h-5" /></a>
               </div>
             </div>
-            <p className="text-slate-300 mb-4 text-sm leading-relaxed">
+            <p className="text-slate-300 mb-4 text-sm leading-relaxed text-justify">
               I implemented Azure Kubernetes Service (AKS) to containerize and orchestrate Laravel application workloads, ensuring scalability and high availability, while automating build and deployment pipelines using Bitbucket pipeline integrated with repository. I configured Azure Application Gateway and Ingress Controllers for secure traffic routing and load balancing, managed Azure Database for MySQL – Flexible Server with caching via Redis for optimized performance, and integrated Azure Key Vault for secure handling of secrets and credentials. Additionally, I deployed centralized logging and monitoring with Azure Monitor, Log Analytics, and Prometheus/​Grafana, and enabled autoscaling for nodes. etc.
             </p>
             <div className="flex flex-wrap gap-2 mt-auto">
@@ -175,7 +175,7 @@ comapany, Laravel and BigCommerce [US Based Client]</h4>
                 <a href="#" className="hover:text-indigo-500 transition-colors"><ExternalLink className="w-5 h-5" /></a>
               </div>
             </div>
-            <p className="text-slate-300 mb-4 text-sm leading-relaxed">
+            <p className="text-slate-300 mb-4 text-sm leading-relaxed text-justify">
               Engineered a multi-tier AWS architecture utilizing VPC, ECS
 Fargate, and IAM to support a scalable Laravel and BigCommerce backend,
 while automating end-to-end CI/​CD workflows through Bitbucket Pipelines. By
